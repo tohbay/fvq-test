@@ -26,6 +26,10 @@
   align-items: center;
 }
 
+.content {
+  width: 95%;
+}
+
 .form-header {
   width: 100%;
   display: flex;
@@ -134,4 +138,86 @@
 .terms {
   color: #169486;
   cursor: pointer;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+/* Tablet adjustment */
+@media (min-width: 768px) {
+  .content {
+    width: 95%;
+  }
+
+  .form-container {
+    width: 60%;
+  }
+
+  .form-container h3 {
+    width: 85%;
+  }
+
+  .text-input-container {
+    width: 85%;
+  }
+}
+
+/* Desktop upgrade */
+@media (min-width: 1024px) {
+  .content {
+    width: 40%;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .form-container h3 {
+    width: 85%;
+  }
+
+  .text-input-container {
+    width: 85%;
+  }
+}
+
+/* Desktop 1440 */
+@media (min-width: 1440px) {
+  .content {
+    width: 30%;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .form-container h3 {
+    width: 85%;
+  }
+
+  .text-input-container {
+    width: 85%;
+  }
+}
+
+/* 2K Desktop upgrade */
+@media (min-width: 2560px) {
+  * {
+    font-size: 2rem;
+  }
+
+  .content {
+    width: 30%;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .form-container h3 {
+    width: 85%;
+  }
+
+  .text-input-container {
+    width: 85%;
+  }
 }
