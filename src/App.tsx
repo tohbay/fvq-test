@@ -4,7 +4,7 @@ import PersonalInformationForm from "./components/PersonalInformationForm";
 function App() {
   return (
     <div className="main-container">
-      <div style={{ width: "95%", margin: "0 auto" }}>
+      <div className="content">
         <div className="form-header">
           <h1>Personal Information</h1>
           <div className="form-step-indicator"></div>
