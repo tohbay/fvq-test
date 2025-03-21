@@ -152,7 +152,7 @@
 /* Tablet adjustment */
 @media (min-width: 768px) {
   .content {
-    width: 85%;
+    width: 75%;
   }
 
   .form-container {
@@ -175,7 +175,7 @@
 /* Laptop or Desktop */
 @media (min-width: 1024px) {
   .content {
-    width: 40%;
+    width: 35%;
   }
 
   .form-container {
@@ -198,7 +198,7 @@
 /* Laptop or Desktop @ 1440 */
 @media (min-width: 1440px) {
   .content {
-    width: 30%;
+    width: 25%;
   }
 
   .form-container {

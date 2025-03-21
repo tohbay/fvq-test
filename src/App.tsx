@@ -1,3 +1,4 @@
+import "./App.css";
 import PersonalInformation from "./components/PersonalInformation/PersonalInformation";
 
 function App() {
