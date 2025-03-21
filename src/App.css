@@ -26,6 +26,7 @@ body {
   justify-content: first baseline;
   align-items: center;
   margin-top: 4rem;
+  margin-bottom: 4rem;
   overflow-y: scroll;
 }
 
@@ -162,7 +163,8 @@ body {
 
   .main-container {
     justify-content: center;
-    margin-top: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
     overflow-y: scroll;
   }
 
@@ -192,6 +194,7 @@ body {
   .main-container {
     justify-content: center;
     margin-top: 0rem;
+    margin-bottom: 0rem;
     overflow-y: scroll;
   }
 
@@ -221,6 +224,8 @@ body {
   .main-container {
     justify-content: center;
     margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-bottom: 0rem;
     overflow-y: scroll;
   }
 
@@ -248,6 +253,7 @@ body {
     width: 30%;
     justify-content: "center";
     margin-top: 0rem;
+    margin-bottom: 0rem;
     overflow-y: scroll;
   }
 
