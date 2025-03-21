@@ -1,11 +1,11 @@
-interface TextInputProps {
+type TextInputProps = {
   type: string;
   id: string;
   name: string;
   value: string;
-  onChange: () => void;
+  onChange: (args: React.FormEvent<HTMLInputElement>) => void;
   label?: string;
-}
+};
 
 export default function CustomTextInput({
   type,
