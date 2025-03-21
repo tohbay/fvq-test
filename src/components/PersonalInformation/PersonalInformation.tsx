@@ -46,8 +46,8 @@ export default function PersonalInformation() {
           </div>
         </form>
         <p className="agreement">
-          By clicking continue above, you have agree you the{" "}
-          <span className="terms">terms and policy</span> of the service
+          By clicking continue above, you have agreed to the{" "}
+          <span className="terms">terms and policy</span> of the service.
         </p>
       </div>
     </div>
