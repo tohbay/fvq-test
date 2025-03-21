@@ -1,6 +1,10 @@
-import CustomTextInput from "./CustomTextInput";
+import { PersonalInformationFormProps } from "../../types";
+import CustomTextInput from "../CustomTextInput";
 
-const PersonalInformationForm = () => {
+const PersonalInformationForm = ({
+  data,
+  handleChange,
+}: PersonalInformationFormProps) => {
   return (
     <div>
       <h3>Tell us about yourself</h3>
@@ -10,40 +14,40 @@ const PersonalInformationForm = () => {
           type="text"
           name="firstName"
           id="firstName"
-          value=""
-          onChange={() => {}}
+          value={data.firstName}
+          onChange={handleChange}
         />
         <CustomTextInput
           label="Last Name"
           type="text"
           name="lastName"
           id="lastName"
-          value=""
-          onChange={() => {}}
+          value={data.lastName}
+          onChange={handleChange}
         />
         <CustomTextInput
           label="Email"
           type="email"
           name="email"
           id="email"
-          value=""
-          onChange={() => {}}
+          value={data.email}
+          onChange={handleChange}
         />
         <CustomTextInput
           label="Telephone"
           type="tel"
           name="telephone"
           id="telephone"
-          value=""
-          onChange={() => {}}
+          value={data.telephone}
+          onChange={handleChange}
         />
         <CustomTextInput
           label="Date of Birth"
           type="text"
           name="dateOfBirth"
           id="dateOfBirth"
-          value=""
-          onChange={() => {}}
+          value={data.dateOfBirth}
+          onChange={handleChange}
         />
       </div>
     </div>

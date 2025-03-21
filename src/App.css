@@ -7,8 +7,6 @@
 }
 
 #root {
-  margin: 0;
-  padding: 0;
   color: #083530;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -46,12 +44,17 @@
   color: #083530;
 }
 
+.step-indicator-containter {
+  display: flex;
+  gap: 0.5rem;
+}
+
 .form-step-indicator {
-  width: 2.25rem;
-  height: 0.65rem;
+  width: 2.13rem;
+  height: 0.375rem;
   border-radius: 0.65rem;
-  background-color: #abd8d3;
   margin-top: 2rem;
+  background-color: #abd8d3;
 }
 
 .current-form-step-indicator {
@@ -98,9 +101,11 @@
   border: 1px solid #74bfb7;
   border-radius: 0.375rem;
   padding: 0.5rem 0.75rem;
+  color: #083530;
   font-weight: 400;
   font-size: 0.85rem;
   line-height: 1.25rem;
+  letter-spacing: 0%;
 }
 
 .submit-button-container {
@@ -126,6 +131,8 @@
 }
 
 .agreement {
+  width: 100%;
+  margin: 0 auto;
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 1.25rem;
@@ -145,7 +152,7 @@
 /* Tablet adjustment */
 @media (min-width: 768px) {
   .content {
-    width: 95%;
+    width: 85%;
   }
 
   .form-container {
@@ -159,9 +166,13 @@
   .text-input-container {
     width: 85%;
   }
+
+  .agreement {
+    width: 60%;
+  }
 }
 
-/* Desktop upgrade */
+/* Laptop or Desktop */
 @media (min-width: 1024px) {
   .content {
     width: 40%;
@@ -178,9 +189,13 @@
   .text-input-container {
     width: 85%;
   }
+
+  .agreement {
+    width: 100%;
+  }
 }
 
-/* Desktop 1440 */
+/* Laptop or Desktop @ 1440 */
 @media (min-width: 1440px) {
   .content {
     width: 30%;
@@ -199,7 +214,7 @@
   }
 }
 
-/* 2K Desktop upgrade */
+/* 2K or 4K Desktop */
 @media (min-width: 2560px) {
   * {
     font-size: 2rem;
