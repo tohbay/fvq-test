@@ -13,20 +13,24 @@
   font-style: normal;
 }
 
+body {
+  background-color: #daeeec;
+}
+
 .main-container {
   width: 100%;
   height: 100vh;
-  background-color: #daeeec;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: first baseline;
   align-items: center;
+  margin-top: 4rem;
+  overflow-y: scroll;
 }
 
 .content {
   width: 95%;
-  margin: 3rem 0;
 }
 
 .form-header {
@@ -156,6 +160,12 @@
     width: 75%;
   }
 
+  .main-container {
+    justify-content: center;
+    margin-top: 0rem;
+    overflow-y: scroll;
+  }
+
   .form-container {
     width: 60%;
   }
@@ -177,6 +187,12 @@
 @media (min-width: 1024px) {
   .content {
     width: 35%;
+  }
+
+  .main-container {
+    justify-content: center;
+    margin-top: 0rem;
+    overflow-y: scroll;
   }
 
   .form-container {
@@ -202,8 +218,15 @@
     width: 25%;
   }
 
+  .main-container {
+    justify-content: center;
+    margin-top: 0rem;
+    overflow-y: scroll;
+  }
+
   .form-container {
     width: 100%;
+    justify-content: "center";
   }
 
   .form-container h3 {
@@ -223,6 +246,9 @@
 
   .content {
     width: 30%;
+    justify-content: "center";
+    margin-top: 0rem;
+    overflow-y: scroll;
   }
 
   .form-container {
